@@ -1,0 +1,7 @@
+build/
+temp/
+setup.cfg
+*.pyc
+*.egg
+*.egg-info
+**/*.egg-info
