@@ -1,5 +1,3 @@
-.. contents::
-
 Introduction
 ============
 
@@ -20,6 +18,18 @@ Or alternatively you can add ``pyramid_dogpile_cache`` to the ``pyramid.includes
 .. code-block:: ini
 
     pyramid.includes = pyramid_dogpile_cache
+
+Usage in Code
+=============
+
+``pyramid_dogpile_cache.get_region`` is the only API.
+
+.. code-block:: python
+
+   from pyramid_dogpile_cache import get_region
+   region = get_region('foo')
+   # ... do whatever operation on the cache region ...
+
 
 Settings
 ========
