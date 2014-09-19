@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.0.2'
+version = '0.0.3'
 
 requires = [
     'pyramid',
@@ -29,6 +29,8 @@ setup(name='pyramid_dogpile_cache',
       long_description=long_description,
       classifiers=[
         "Intended Audience :: Developers",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
         "Programming Language :: Python",
         "Programming Language :: Python :: 2",
         "Programming Language :: Python :: 2.6",

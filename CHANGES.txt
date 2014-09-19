@@ -12,3 +12,8 @@ Changelog
 
 - minor documentation fixes
 
+0.0.3
+--------------------
+
+- license inclusion (MIT)
+
