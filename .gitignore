@@ -1,5 +1,6 @@
 build/
 temp/
+dist/
 setup.cfg
 *.pyc
 *.egg

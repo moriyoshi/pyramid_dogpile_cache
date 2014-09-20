@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.0.3'
+version = '0.0.4'
 
 requires = [
     'pyramid',
@@ -47,7 +47,7 @@ setup(name='pyramid_dogpile_cache',
       author='Moriyoshi Koizumi',
       author_email='mozo@mozo.jp',
       url='https://github.com/moriyoshi/pyramid_dogpile_cache',
-      license='bsd',
+      license='mit',
       packages=find_packages(),
       include_package_data=True,
       zip_safe=False,

@@ -17,3 +17,7 @@ Changelog
 
 - license inclusion (MIT)
 
+0.0.4
+--------------------
+
+- packaging fix
