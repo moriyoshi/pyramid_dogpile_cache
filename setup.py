@@ -62,7 +62,7 @@ setup(name='pyramid_dogpile_cache',
       [dogpile.cache]
       file = dogpile.cache.backends.file:DBMBackend
       memcached = dogpile.cache.backends.memcached:MemcachedBackend
-      memcached.pylibmc = dogpile.cache.backends.memcached:PylibmcMemcachedBackend
+      memcached.pylibmc = dogpile.cache.backends.memcached:PylibmcBackend
       bmemcached = dogpile.cache.backends.memcached:BMemcachedBackend
       memory = dogpile.cache.backends.memory:MemoryBackend
       redis = dogpile.cache.backends.redis:RedisBackend
